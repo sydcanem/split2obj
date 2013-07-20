@@ -16,4 +16,4 @@ Example:
       })
 
 Note:
-Not a node module yet so no `npm install` yet. Installation is to grab the repo itself and put the split2obj.js on your projects' lib directory.
+Not a node module yet so no `npm install`. Installation is to grab the repo itself and put the split2obj.js on your projects' lib directory.
