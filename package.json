@@ -1,0 +1,33 @@
+{
+  "name": "split2obj",
+  "version": "0.0.1",
+  "description": "stream a text stream into a js object with array args as keys",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/split2obj.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sydcanem/split2obj"
+  },
+  "keywords": [
+    "stream",
+    "split",
+    "object"
+  ],
+  "author": "sydcanem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sydcanem/split2obj/issues"
+  },
+  "dependencies": {
+    "split": "~0.2.6"
+  },
+  "devDependencies": {
+    "resumer": "0.0.0",
+    "tape": "~1.0.4"
+  }
+}

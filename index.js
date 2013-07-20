@@ -6,15 +6,15 @@ var split = require('split');
 */
 
 function parseString (str) {
-    var re = /(?:")([^"]+)(?:")|([^\s"]+)(?=\s+|$)/g,
-    	res = [], 
-    	arr = null;
+	var re = /(?:")([^"]+)(?:")|([^\s"]+)(?=\s+|$)/g,
+		res = [], 
+		arr = null;
 
-    while (arr = re.exec(str)) { 
-    	res.push(arr[1] ? arr[1] : arr[0]); 
-    }
+	while (arr = re.exec(str)) { 
+		res.push(arr[1] ? arr[1] : arr[0]); 
+	}
 
-    return res;
+	return res;
 }
 
 function split2obj (head, opts) {
@@ -38,4 +38,4 @@ function split2obj (head, opts) {
 	return split(toObject);
 }
 
-module.exports = cushion
+module.exports = split2obj
